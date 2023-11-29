@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/detail_imageview"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/blue"
+        android:layout_gravity="center_horizontal"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/detail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="36sp"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/detail_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:textColor="#A1887F"
+        android:textSize="20sp"
+        tools:text="0123456789" />
+
+    <LinearLayout
+        android:id="@+id/detail_linear_layout"
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="360dp"
+        android:background="#DAD8D8"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/detail_id_text"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:text="@string/id" />
+
+    <TextView
+        android:id="@+id/detail_id_content"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        tools:text="SHFGWYG314" />
+
+    <TextView
+        android:id="@+id/detail_email_text"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="460dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:ignore="TextSizeCheck"
+        tools:text="@string/email" />
+
+    <TextView
+        android:id="@+id/detail_email_content"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="460dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:ignore="TextSizeCheck"
+        tools:text="henrynnguyen02@gmail.com" />
+
+</FrameLayout>

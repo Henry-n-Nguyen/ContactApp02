@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ContactApp02</string>
+    <string name="fragment_1">Fragment 1</string>
+    <string name="fragment_2">Fragment 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="id">ID</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="number">Number</string>
+    <string name="example_number">Ex : 0770001111</string>
+    <string name="example_name">Ex : Mai Nguyễn Ngọc Huy</string>
+    <string name="example_email">Ex : example02@gmail.com</string>
+    <string name="confirm">Confirm</string>
+</resources>
